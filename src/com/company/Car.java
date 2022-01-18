@@ -7,6 +7,12 @@ public class Car {
     private String brand; //Marke
     private int horsePower; //PS-Zahl
 
+    public Car(String color, String brand, int horsePower) {
+        this.color = color;
+        this.brand = brand;
+        this.horsePower = horsePower;
+    }
+
     //Methoden
     public void drive() {
         System.out.println("Das Auto faehrt...");

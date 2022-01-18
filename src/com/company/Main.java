@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Car car1 = new Car(); //Instanziierung eines Objekts
-        car1.drive();
-        car1.setColor("Rot");
+        Car car1 = new Car("Gruen", "VW", 130); //Instanziierung eines Objekts
+
         System.out.println(car1.getColor());
+
     }
 }
